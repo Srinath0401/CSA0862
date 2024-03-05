@@ -1,0 +1,7 @@
+x=eval(input("Enter Value 1:"))
+y=eval(input("Enter Value 2:"))
+print(x)
+print(y)
+x,y=y,x
+print("After swapping value 1",x)
+print("After swapping value 2",y)

@@ -1,0 +1,6 @@
+for n in range(1, 1001):
+    x = str(n)
+    num = len(x)
+    armstrong_num = sum(int(x) ** num for x in x)
+    if armstrong_num == n:
+        print(n)
